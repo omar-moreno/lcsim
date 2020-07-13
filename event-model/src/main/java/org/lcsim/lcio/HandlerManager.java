@@ -36,6 +36,7 @@ class HandlerManager
       register(new SIOCalorimeterHitBlockHandler());
       register(new SIOGenericObjectBlockHandler());
       register(new SIORawTrackerHitBlockHandler());
+      register(new SIOFittedRawTrackerHitBlockHandler());
       register(new SIOSiliconTrackerHitBlockHandler());
       register(new SIOTrackerDataBlockHandler());
       register(new SIOTrackerPulseBlockHandler());
